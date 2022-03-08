@@ -7,19 +7,26 @@
     />
     <div class="score">
       <span>SCORE</span>
-      <p id="score-number">12</p>
+      <p>{{ score }}</p>
     </div>
   </header>
 </template>
 <script>
 export default {
   name: "HeaderLayout",
+  props: {
+    score: {
+      type: Number,
+      default: 0,
+      required: true,
+    },
+  },
 };
 </script>
 <style scoped>
 header {
   display: flex;
-  width: clamp(300px, 90%, 700px);
+  width: clamp(300px, 90%, 1000px);
   min-width: 320px;
   justify-content: space-between;
   margin: 1rem auto;

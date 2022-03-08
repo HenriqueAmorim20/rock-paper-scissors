@@ -30,10 +30,6 @@ export default {
 };
 </script>
 <style>
-.main {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 .first-step {
   display: flex;
   flex-direction: column;
