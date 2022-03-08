@@ -52,5 +52,10 @@ export default {
   width: clamp(5.2rem, 25vw, 7.5rem);
   background-color: hsl(0, 0%, 100%);
   box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 0.37);
+  transition: transform 0.5s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
 }
 </style>
