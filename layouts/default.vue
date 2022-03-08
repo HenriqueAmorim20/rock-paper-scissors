@@ -36,7 +36,6 @@ export default {
     hsl(214, 47%, 23%),
     hsl(237, 49%, 15%)
   ) !important;
-  height: 100vh;
   font-family: "Barlow Semi Condensed";
   font-weight: 600;
 }
