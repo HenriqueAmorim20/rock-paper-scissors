@@ -68,7 +68,7 @@ export default {
 footer {
   display: flex;
   justify-content: flex-end;
-  padding: 1rem;
+  padding: 1rem 2rem;
   font-weight: 400;
   flex-wrap: wrap;
 }
