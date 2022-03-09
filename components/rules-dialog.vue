@@ -56,7 +56,7 @@ export default {
 .rules {
   padding: 2rem !important;
   background-color: hsl(0, 0%, 100%) !important;
-  color: var(--darkText);
+  color: var(--darkText) !important;
 }
 
 .rules header {
