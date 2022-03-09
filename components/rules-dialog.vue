@@ -55,7 +55,7 @@ export default {
 <style scoped>
 .rules {
   padding: 2rem !important;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 100%) !important;
   color: var(--darkText);
 }
 

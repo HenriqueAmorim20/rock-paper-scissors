@@ -70,6 +70,7 @@ html.sr .load-hidden {
 .second-step {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: auto;
   gap: 1rem;
   margin: 4rem auto;
   max-width: 800px;
